@@ -1,4 +1,6 @@
-interface Pet {
+
+
+interface Pet  {
 
     void tenderness();
 }

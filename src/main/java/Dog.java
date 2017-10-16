@@ -1,4 +1,6 @@
-public class Dog extends Animal implements Pet {
+import java.io.Serializable;
+
+public class Dog extends Animal implements Pet, Serializable {
 
     private String sound;
 

@@ -1,6 +1,9 @@
-public class Cat extends Animal implements Pet {
+import java.io.Serializable;
 
-    private String voice;
+public class Cat extends Animal implements Pet, Serializable {
+
+//    Не сохранять переменную при сериализации
+    transient private String voice;
 
 
     public Cat(String voice, String name) {
